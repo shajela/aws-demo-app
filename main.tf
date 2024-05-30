@@ -1,3 +1,7 @@
+provider "aws" {
+  region = var.region
+}
+
 locals {
   region           = "us-east-1"
   name             = "demo-vpc"
